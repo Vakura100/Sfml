@@ -7,7 +7,7 @@
 #include <string>
 #include"PersonajeVideojuego.h"
 #include "Inventario.h"
-class mago : public PersonajeVideojuego {
+class mago : public PersonajeVideojuego, public Inventario {
 
 public:
     mago();
