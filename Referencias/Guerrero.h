@@ -8,7 +8,6 @@
 
 class Guerrero : public PersonajeVideojuego,public Inventario {
 
-
     Guerrero();
     Guerrero(const Guerrero &rhs);
     Guerrero(int fuerza, int vida, int nivel, std::string nombre, std::string arma, std::string armadura);
