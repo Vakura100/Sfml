@@ -1,3 +1,0 @@
-C:/Users/Alumnos/Desktop/Alex/HeapStack/cmake-build-debug/CMakeFiles/HeapStack.dir
-C:/Users/Alumnos/Desktop/Alex/HeapStack/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Alumnos/Desktop/Alex/HeapStack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
