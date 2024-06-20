@@ -1,3 +1,0 @@
-C:/Users/Alumnos/Desktop/Alex/Entrada y Salida/cmake-build-debug/CMakeFiles/Entrada_y_Salida.dir
-C:/Users/Alumnos/Desktop/Alex/Entrada y Salida/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Alumnos/Desktop/Alex/Entrada y Salida/cmake-build-debug/CMakeFiles/rebuild_cache.dir
