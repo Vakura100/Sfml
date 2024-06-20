@@ -1,3 +1,0 @@
-C:/Users/memop/CLionProjects/Programacion 2/Parcial 2/Juego/cmake-build-debug/CMakeFiles/Juego.dir
-C:/Users/memop/CLionProjects/Programacion 2/Parcial 2/Juego/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/memop/CLionProjects/Programacion 2/Parcial 2/Juego/cmake-build-debug/CMakeFiles/rebuild_cache.dir
