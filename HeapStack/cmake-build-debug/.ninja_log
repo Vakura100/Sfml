@@ -1,0 +1,6 @@
+# ninja log v5
+0	704	7386255679650770	CMakeFiles/HeapStack.dir/Persona.cpp.obj	7699d65233338521
+5	870	7386255681329033	CMakeFiles/HeapStack.dir/main.cpp.obj	11b8f8f31b39176f
+10	617	7386258057157820	CMakeFiles/HeapStack.dir/Persona.cpp.obj	7699d65233338521
+5	801	7386258059011204	CMakeFiles/HeapStack.dir/main.cpp.obj	11b8f8f31b39176f
+801	976	7386258060696720	HeapStack.exe	40cb7230c5b4fae2
