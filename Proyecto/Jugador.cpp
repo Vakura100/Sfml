@@ -12,7 +12,7 @@ void Jugador::agregarHabilidad(const std::string& habilidad) {
 }
 
 void Jugador::usarHabilidad(const std::string& habilidad) {
-    // Implementación de uso de habilidad específica
+    
     std::cout << nombre << " usa la habilidad " << habilidad << "!" << std::endl;
 }
 
