@@ -27,5 +27,5 @@ void Jugador::mostrar() const {
     for (const auto& habilidad : habilidades) {
         std::cout << "- " << habilidad << std::endl;
     }
-    std::cout << "--------------------------" << std::endl;
+
 }
