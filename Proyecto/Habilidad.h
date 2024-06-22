@@ -1,14 +1,21 @@
-//
-// Created by Alumnos on 20/06/2024.
-//
+#ifndef HABILIDAD_H
+#define HABILIDAD_H
 
-#ifndef REFERENCIAS_HABILIDAD_H
-#define REFERENCIAS_HABILIDAD_H
-
+#include <iostream>
+#include <string>
 
 class Habilidad {
+protected:
+    std::string nombre;
+    int potencia;
+    int costoMana;
 
+public:
+    Habilidad(std::string nombre, int potencia, int costoMana);
+    virtual ~Habilidad();
+
+    virtual void usar() const = 0; // Método virtual puro
+    virtual void mostrar() const;
 };
 
-
-#endif //REFERENCIAS_HABILIDAD_H
+#endif // HABILIDAD_H

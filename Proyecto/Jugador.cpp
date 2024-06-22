@@ -1,51 +1,31 @@
 #include "Jugador.h"
-#include "Inventario.h"
-Jugador::Jugador(){
 
-    this -> fuerza = 0;
-    this -> vida = 0;
-    this -> nivel = 0;
-    this -> nombre = "N/A";
+Jugador::Jugador(std::string nombre, int ataque, int defensa, int salud)
+        : Entidad(nombre, ataque, defensa, salud) {}
 
+void Jugador::agregarItem(const Item& item) {
+    inventario.push_back(item);
 }
 
-Jugador::Jugador(int fuerza, int vida, int nivel, std::string nombre){
-
-    this -> fuerza = fuerza;
-    this -> vida = vida;
-    this -> nivel = nivel;
-    this -> nombre = nombre;
+void Jugador::agregarHabilidad(const std::string& habilidad) {
+    habilidades.push_back(habilidad);
 }
 
-int Jugador::getFuerza() const {
-    return fuerza;
+void Jugador::usarHabilidad(const std::string& habilidad) {
+    // Implementación de uso de habilidad específica
+    std::cout << nombre << " usa la habilidad " << habilidad << "!" << std::endl;
 }
 
-void Jugador::setFuerza(int fuerza) {
-    fuerza = fuerza;
-}
-
-int Jugador::getvida() const {
-    return vida;
-}
-
-void Jugador::setvida(int vida) {
-    vida = vida;
-}
-
-int Jugador::getnivel() const {
-    return nivel;
-}
-
-void Jugador::setnivel(int nivel) {
-    nivel = nivel;
-}
-
-
-std::string Jugador::getnombre() const {
-    return nombre;
-}
-
-void Jugador::setNombre(std::string nombre) {
-    nombre = nombre;
+void Jugador::mostrar() const {
+    std::cout << "Jugador:" << std::endl;
+    Entidad::mostrar();
+    std::cout << "Inventario:" << std::endl;
+    for (const auto& item : inventario) {
+        std::cout << "- " << item.getNombre() << " (" << item.getTipo() << ")" << std::endl;
+    }
+    std::cout << "Habilidades:" << std::endl;
+    for (const auto& habilidad : habilidades) {
+        std::cout << "- " << habilidad << std::endl;
+    }
+    std::cout << "--------------------------" << std::endl;
 }

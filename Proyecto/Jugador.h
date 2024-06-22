@@ -1,39 +1,22 @@
-#ifndef REFERENCIAS_JUGADOR_H
-#define REFERENCIAS_JUGADOR_H
+#ifndef JUGADOR_H
+#define JUGADOR_H
 
-#include <string>
+#include "Entidad.h"
+#include "Item.h"
+#include <vector>
 
-
-class Jugador {
-public:
-    Jugador();
-    Jugador(const Jugador &rhs);
-    Jugador(int fuerza, int vida, int nivel, std::string nombre);
-    ~Jugador();
-
-    virtual void createAtaque();
-
-    int getFuerza() const;
-    void setFuerza(int Fuerza);
-
-    int getvida() const;
-    void setvida(int vida);
-
-    int getnivel() const;
-    void setnivel(int nivel);
-
-    std::string getnombre () const;
-    void setNombre(std::string nombre);
-
+class Jugador : public Entidad {
 private:
+    std::vector<Item> inventario;
+    std::vector<std::string> habilidades;
 
-    int fuerza;
-    int vida;
-    int nivel;
-    std::string nombre;
+public:
+    Jugador(std::string nombre, int ataque, int defensa, int salud);
 
-
+    void agregarItem(const Item& item);
+    void agregarHabilidad(const std::string& habilidad);
+    void usarHabilidad(const std::string& habilidad);
+    void mostrar() const override;
 };
 
-
-#endif //REFERENCIAS_JUGADOR_H
+#endif // JUGADOR_H

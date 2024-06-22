@@ -1,12 +1,18 @@
-#ifndef REFERENCIAS_ITEM_H
-#define REFERENCIAS_ITEM_H
+#ifndef ITEM_H
+#define ITEM_H
 
-#include "Inventario.h"
-#include <vector>
+#include <iostream>
+#include <string>
 
 class Item {
+private:
+    std::string nombre;
+    std::string tipo;
 
+public:
+    Item(std::string nombre, std::string tipo);
+    std::string getNombre() const;
+    std::string getTipo() const;
 };
 
-
-#endif //REFERENCIAS_ITEM_H
+#endif // ITEM_H

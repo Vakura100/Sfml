@@ -1,14 +1,16 @@
-//
-// Created by Alumnos on 20/06/2024.
-//
+#ifndef BOLADEFUEGO_H
+#define BOLADEFUEGO_H
 
-#ifndef REFERENCIAS_BOLADEFUEGO_H
-#define REFERENCIAS_BOLADEFUEGO_H
+#include "Habilidad.h"
 
+class BolaDeFuego : public Habilidad {
+private:
+    int radio;
 
-class BolaDeFuego {
-
+public:
+    BolaDeFuego(std::string nombre, int potencia, int costoMana, int radio);
+    void usar() const override;
+    void mostrar() const override;
 };
 
-
-#endif //REFERENCIAS_BOLADEFUEGO_H
+#endif // BOLADEFUEGO_H
