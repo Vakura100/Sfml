@@ -21,5 +21,5 @@ void Inventario::mostrarItems() const {
     for (const auto& item : items) {
         std::cout << "- " << item.getNombre() << " (" << item.getTipo() << ")" << std::endl;
     }
-    std::cout << "--------------------------" << std::endl;
+ 
 }
