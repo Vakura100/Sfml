@@ -11,7 +11,7 @@ void Inventario::eliminarItem(const std::string& nombre) {
     for (auto it = items.begin(); it != items.end(); ++it) {
         if (it->getNombre() == nombre) {
             items.erase(it);
-            break; // Se asume que cada nombre de item es único, se elimina solo uno
+            break; 
         }
     }
 }
