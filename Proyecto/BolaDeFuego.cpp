@@ -6,7 +6,7 @@ BolaDeFuego::BolaDeFuego(std::string nombre, int potencia, int costoMana, int ra
 
 void BolaDeFuego::usar() const {
     std::cout << "¡" << nombre << " lanzada! Causa " << potencia << " puntos de daño." << std::endl;
-    // Implementación específica de la habilidad Bola de Fuego
+
 }
 
 void BolaDeFuego::mostrar() const {
