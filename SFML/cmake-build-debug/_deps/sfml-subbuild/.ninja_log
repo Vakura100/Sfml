@@ -1,0 +1,21 @@
+# ninja log v5
+0	64	7422519407619774	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	7bae56ed6e341dd2
+0	64	7422519407619774	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	7bae56ed6e341dd2
+65	10963	7422519516609574	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	1dc40ab4f8edc5f1
+65	10963	7422519516609574	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	1dc40ab4f8edc5f1
+10963	11127	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	b366e172adbcdc69
+10963	11127	0	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	b366e172adbcdc69
+11128	11188	7422519518850129	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	2e04e2ce523c8629
+11128	11188	7422519518850129	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	2e04e2ce523c8629
+11188	11245	7422519519438404	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	ace58fa7aecf1207
+11188	11245	7422519519438404	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	ace58fa7aecf1207
+11245	11302	7422519519987894	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	45bfa563ff417cba
+11245	11302	7422519519987894	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	45bfa563ff417cba
+11303	11362	7422519520597265	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	64674768caa1335e
+11303	11362	7422519520597265	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	64674768caa1335e
+11362	11420	7422519521185282	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	729434de97a451de
+11362	11420	7422519521185282	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	729434de97a451de
+11420	11499	7422519521964482	CMakeFiles/sfml-populate-complete	aa09afc81486531a
+11420	11499	7422519521964482	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	aa09afc81486531a
+11420	11499	7422519521964482	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	aa09afc81486531a
+11420	11499	7422519521964482	C:/Users/Alumnos/Desktop/Alex/SFML/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	aa09afc81486531a

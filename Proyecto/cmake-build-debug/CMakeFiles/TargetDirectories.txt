@@ -1,3 +1,0 @@
-C:/Users/memop/CLionProjects/Proyecto/Proyecto/cmake-build-debug/CMakeFiles/main.cpp.dir
-C:/Users/memop/CLionProjects/Proyecto/Proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/memop/CLionProjects/Proyecto/Proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
