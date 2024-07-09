@@ -1,17 +1,12 @@
-#ifndef REFERENCIAS_ENEMIGO_H
-#define REFERENCIAS_ENEMIGO_H
-#include <iostream>
+#ifndef ENEMIGO_H
+#define ENEMIGO_H
 
-class Enemigo {
-    Enemigo();
-    Enemigo(const Enemigo &rhs);
-    Enemigo(int fuerza, int vida, int nivel, std::string nombre, std::string arma, std::string armadura);
-    ~Enemigo();
+#include "Entidad.h"
 
+class Enemigo : public Entidad {
+public:
+    Enemigo(std::string nombre, int ataque, int defensa, int salud);
+    void mostrar() const override;
+};
 
-
-
-
-
-
-#endif //REFERENCIAS_ENEMIGO_H
+#endif // ENEMIGO_H

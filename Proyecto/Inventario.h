@@ -1,29 +1,20 @@
-
-#ifndef REFERENCIAS_INVENTARIO_H
-#define REFERENCIAS_INVENTARIO_H
+#ifndef INVENTARIO_H
+#define INVENTARIO_H
 
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
-
-class Item {
-
-};
+#include "Item.h"
 
 class Inventario {
 private:
     std::vector<Item> items;
 
 public:
-    Inventario() {}
+    Inventario();
 
-    Inventario(const Inventario &rhs) : items(rhs.items) {}
-
-    ~Inventario() {}
-
-
+    void agregarItem(const Item& item);
+    void eliminarItem(const std::string& nombre);
+    void mostrarItems() const;
 };
 
-
-#endif //REFERENCIAS_INVENTARIO_H
+#endif // INVENTARIO_H
